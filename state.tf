@@ -1,6 +1,6 @@
 terraform{
     backend "s3" {
-        bucket = "pratheek-aws-cicd-pipelines"
+        bucket = "pratheeknk1205-aws-cicd"
         encrypt = true
         key = "terraform.tfstate"
         region = "us-east-1"
